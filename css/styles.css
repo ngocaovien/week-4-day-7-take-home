@@ -1,0 +1,104 @@
+/*NAV*/
+
+.navbar{
+    height:120px;
+    border: solid white 1px ;
+}
+
+.logo_nav{
+    width:100px;
+    float:left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.nav_ul{
+    list-style: none;
+    float:right;
+    margin-top:40px;
+    margin-right:20px;
+    color:white;
+    background-color: #1C1D21;
+}
+
+.nav_li{
+    text-decoration:none;
+    padding: 10px;
+    display:inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-family:"Press Start 2P";
+    font-size: 20px;
+    font-color:white;
+}
+
+/*BODY*/
+
+.logo{
+    width:300px;
+    display: block;
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    padding: 10px;
+}
+
+.buy_shirt{
+    clear:both;
+    color: white;
+    font-family: "Lobster";
+    text-shadow: 2px 2px 2px white;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;;
+}
+
+body{
+    background-color: #1C1D21;
+}
+
+/*FOOTER*/
+
+.footer{
+    margin-top:50px;
+    display: block;
+    margin-left: 10px;
+    border: solid white 3px;
+    padding:10px;
+}
+
+.fa-instagram{
+    color:white;
+    font-size: 50px;
+    margin-left:20px;
+}
+
+.fa-youtube{
+    color:white;
+    font-size: 50px;
+    margin-left:20px;
+}
+
+.fa-amazon{
+    color:white;
+    font-size: 50px;
+    margin-left:20px;
+}
+
+#wuf-adv{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    text-shadow: 1px 1px 1px white;
+    
+}
+
+a:hover{
+    color: yellow;
+}
+
+.white{
+    color:white;
+}

@@ -2,7 +2,9 @@
 
 .navbar{
     height:120px;
-    border: solid white 1px ;
+    border: double #00f9ff 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 40px 1px #0ff;
 }
 
 .logo_nav{
@@ -10,6 +12,7 @@
     float:left;
     margin-top: 10px;
     margin-left: 20px;
+    transition: 0s box-shadow;
 }
 
 .nav_ul{
@@ -17,8 +20,7 @@
     float:right;
     margin-top:40px;
     margin-right:20px;
-    color:white;
-    background-color: #1C1D21;
+    /*background-color: #1C1D21;*/
 }
 
 .nav_li{
@@ -27,35 +29,52 @@
     display:inline-block;
     margin-left: 10px;
     text-transform: uppercase;
-    font-family:"Press Start 2P";
-    font-size: 20px;
-    font-color:white;
+    font-family:"Monoton";
+    font-size: 25px;
+    color:#00f9ff;
+    text-shadow: 2px 2px 2px #00f9ff;
+    transition: 0s background-color, box-shadow;
 }
 
 /*BODY*/
 
-.logo{
-    width:300px;
-    display: block;
-    margin: auto;
-    width: 50%;
-    border: 3px solid white;
-    padding: 10px;
-}
-
-.buy_shirt{
-    clear:both;
-    color: white;
-    font-family: "Lobster";
-    text-shadow: 2px 2px 2px white;
-    font-size: 35px;
-    margin-top: 20px;
-    margin-left: 20px;;
-}
-
 body{
-    background-color: #1C1D21;
+    background-image:url("https://tinyurl.com/ycukuugd");
+    height:100%;
+    width:100%;
+    background-repeat:no-repeat;
+    background-color:black;
+    background-position: center;
+    margin-bottom: 25px;
 }
+
+.hero_photo{
+    margin-top:20px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    box-shadow: 1px 1px 40px 2px #0ff;
+}
+
+.learn_more{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border:none;
+    background-color:#00f9ff;
+    border-radius:20px;
+    padding:20px;
+    font-family: "Press Start 2p";
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 1px 1px 40px 2px #0ff;
+    transition: 0s background-color, box-shadow, font-color;
+}
+
 
 /*FOOTER*/
 
@@ -63,42 +82,150 @@ body{
     margin-top:50px;
     display: block;
     margin-left: 10px;
-    border: solid white 3px;
+    border: double #00f9ff 12px;
+    border-radius: 10px;
     padding:10px;
 }
 
+.footer_group{
+    display: inline-block;
+    margin-left:42%; 20px;
+    margin-bottom: 
+}
+
 .fa-instagram{
-    color:white;
+    color:#00f9ff;
     font-size: 50px;
     margin-left:20px;
 }
 
 .fa-youtube{
-    color:white;
+    color:#00f9ff;
     font-size: 50px;
     margin-left:20px;
 }
 
 .fa-amazon{
-    color:white;
+    color:#00f9ff;
     font-size: 50px;
     margin-left:20px;
 }
 
-#wuf-adv{
-    background-color: black;
-}
-
 a{
     text-decoration: none;
-    text-shadow: 1px 1px 1px white;
-    
+    color:#00f9ff;
 }
+
+
+/* HOVER Effects*/
 
 a:hover{
-    color: yellow;
+    color:#ff00f4;
+    text-shadow: 2px 2px 2px #ff00f4;
 }
 
-.white{
-    color:white;
+.learn_more:hover{
+    transition-timing-function: ease-in;
+    transition: 1s;
+    background-color:#ff00f4;
+    box-shadow: 1px 1px 40px 2px #ff00f4;
 }
+
+.nav_li:hover{
+    transition-timing-function: ease-in;
+    transition: .8s;
+    border-radius: 20px;
+    /*background-color:#ff00f4;*/
+    box-shadow: 1px 1px 40px 2px #ff00f4;
+    color:#ff00f4; /*#ff00f4 is a neon purple alternate*/
+    text-shadow: 2px 2px 2px #ff00f4;
+}
+
+.logo_nav:hover{
+    transition-timing-function: ease-in;
+    transition: .7s;
+    box-shadow: 1px 1px 40px 2px #ff00f4;
+}
+/*ABOUT STYLES*/
+
+/*.about_top{*/
+/*    height:100%;*/
+/*    width:100%;*/
+/*}*/
+
+/*.about_left{*/
+/*    float:left;*/
+/*}*/
+
+/*.kendo_vid{*/
+/*    width:250px;*/
+/*}*/
+
+/*.about_right{*/
+/*    float:left;*/
+/*}*/
+
+/*.kendo_text{*/
+/*    color:#00f9ff;*/
+/*    font-family: "Open Sans";*/
+/*}*/
+
+h1{
+    font-size: 30px;
+    font-family:"Monoton";
+    color:#00f9ff;
+    font-weight: 200;
+    text-align: center;
+}
+
+h2{
+    color:#00f9ff;
+    font-family: "Monoton";
+    font-weight: 100;
+}
+
+.about{
+    border: double 5px #00f9ff;
+    margin-right:3px;        
+    box-shadow: 1px 1px 40px 2px #0ff;
+    border-radius: 25px;
+    background: rgba(0,0,0, .45);
+}
+
+.left{
+    display: inline-block;
+}
+
+.left .mads{
+    width:250px;
+    border-radius:25px;
+
+}
+
+.slacker{
+    width:250px;
+    border-radius:25px;
+
+}
+
+.vid{
+    width:250px;
+    border-radius:25px;
+    text-decoration:none;
+}
+
+.right{
+    display:inline-block;
+    width:70%;
+}
+
+
+p{
+    font-family:"Aldrich";
+    color:#00f9ff;
+    font-size: larger;
+    margin-left:30px;    
+    margin-bottom: 40px;
+}
+
+
